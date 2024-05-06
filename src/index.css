@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "MDisplay";
+  src: url("./assets/ClashDisplay/ClashDisplay-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "RDisplay";
+  src: url("./assets/ClashDisplay/ClashDisplay-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "SBDisplay";
+  src: url("./assets/ClashDisplay/ClashDisplay-Semibold.otf") format("opentype");
+}
+@font-face {
+  font-family: "SDisplay";
+  src: url("./assets/ClashDisplay/ClashDisplay-Semibold.ttf") format("opentype");
+}
+@font-face {
+  font-family: "ROutfit";
+  src: url("./assets/OutfitFont/Outfit-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "LOutfit";
+  src: url("./assets/OutfitFont/Outfit-Light.ttf") format("opentype");
+}
+@font-face {
+  font-family: "MOutfit";
+  src: url("./assets/OutfitFont/Outfit-Medium.ttf") format("opentype");
+}
