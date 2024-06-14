@@ -7,7 +7,7 @@ const cardWrapper = "flex items-center justify-center gap-2 m-2";
 const h2Style = "text-customSecondary text-3xl font-bold";
 const AboutUs = () => {
 	return (
-		<div className="bg-customPrimary text-white flex justify-center pt-36">
+		<div className="bg-customPrimary text-white flex justify-center pt-36 px-1">
 			<div className="container flex  flex-col md:grid mb-32">
 				<div className="mb-8 ">
 					<h1 className="font-sdisplay text-5xl">- About Us</h1>
