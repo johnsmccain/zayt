@@ -2,7 +2,7 @@
 
 export const Card = (prop: any) => {
 	return (
-		<div className="max-h-[467.23px] max-w-[442.93px] relative rounded-lg">
+		<div className="max-h-[467.23px] max-w-[442.93px] min-w-80 relative rounded-lg">
 			<img
 				src={prop.img}
 				alt="official"

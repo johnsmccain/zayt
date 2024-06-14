@@ -31,12 +31,15 @@ export const Volanteers = () => {
 				</p>
 				<div>
 					<motion.div
-						className={Style.slider_box_itmes}
+						className={
+							"w-full overflow-x-scroll overflow-y-hidden md:overflow-visible"
+						}
 						// ref={dragSlider}
 					>
 						<motion.div
 							// ref={dragSlider}
-							className={Style.slider_box_item}
+							// className={Style.slider_box_item}
+							className={"flex gap-5"}
 							// drag="x"
 							// dragConstraints={{ right: 0, left: -width }}
 						>
