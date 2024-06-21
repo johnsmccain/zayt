@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import { Card } from "../components/card";
 import { volanteers } from "../data";
-import Style from "./Slider.module.css";
 
 export const Volanteers = () => {
 	// useEffect(() => {
